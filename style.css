@@ -134,5 +134,22 @@
 }
 
 .preefooter{
+    display: flex;
     height: 19em;
+    .call-to-action{
+        display: flex;
+        padding: 5em;
+        gap: 15em;
+        margin: 0 auto;
+        background-color: #3882f6;
+        width: 850px;
+    }
+}
+.footer{
+    height: 5em;
+    color: #F9FAF8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
