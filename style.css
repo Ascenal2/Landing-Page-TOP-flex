@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header,.footer{
+    background-color: #1f2937;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+.header-top{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+}
