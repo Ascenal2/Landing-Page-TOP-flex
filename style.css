@@ -135,14 +135,28 @@
 
 .preefooter{
     display: flex;
-    height: 19em;
+    height: 20em;
+    align-items: center;
+    justify-content: center;
     .call-to-action{
         display: flex;
-        padding: 5em;
-        gap: 15em;
-        margin: 0 auto;
+        border-radius: 1em;
+        height: 10em;
+        padding: 1em;
+        align-items: center;
+        justify-content: center;
+        gap: 10em;
         background-color: #3882f6;
         width: 850px;
+        color: #F9FAF8;
+        .btn-cta{
+            color: #F9FAF8;
+            background-color: transparent;
+            font-weight: bold;
+            padding: .5em 2em;
+            border: .185em solid #F9FAF8;
+            border-radius: .5em;
+        }
     }
 }
 .footer{
