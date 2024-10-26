@@ -106,3 +106,28 @@
             
     }
 }
+.quote-section{
+    height: 20em;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+    .quote{
+        max-width: 850px;
+        margin: 0 auto;
+        
+        p{
+            font-size: 36px;
+            color: #1f2937;
+            font-weight: lighter|;
+            font-style: italic;
+            }
+        }
+        span{
+            font-weight: bold;
+            display: inline-block;
+            text-align: right;
+            width: 100%;
+        }
+}
