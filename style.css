@@ -9,7 +9,8 @@
 .header{
     margin-bottom: 2em;
     padding: 1.25em;
-}
+    height: 22em;
+
 .header-top{
     display: flex;
     margin: 0 auto;
@@ -45,27 +46,29 @@
         width: 420px;
         height: auto;
     }
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: .5em;
+        h1{
+            font-size: 48px;
+            color: #F9FAF8;
+            font-weight: 900;
+        }
+        p{
+            color: #e5e7eb;
+            font-size: 18px;
+        }
+        button{
+            display: inline-block;
+            padding: .5em 1em;
+            max-width: 10em;
+            background-color: #3882f6;
+            color: #F9FAF8;
+            border-radius: .5em;
+            font-weight: bold;
+        }
+    }
 }
-.info{
-    display: flex;
-    flex-direction: column;
-    gap: .5em;
-    h1{
-        font-size: 48px;
-        color: #F9FAF8;
-        font-weight: 900;
-    }
-    p{
-        color: #e5e7eb;
-        font-size: 18px;
-    }
-    button{
-        display: inline-block;
-        padding: .5em 1em;
-        max-width: 10em;
-        background-color: #3882f6;
-        color: #F9FAF8;
-        border-radius: .5em;
-        font-weight: bold;
-    }
+
 }
